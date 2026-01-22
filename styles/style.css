@@ -18,7 +18,7 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 200px;
+  width: 180px;
   background-color: #ffffe0;
 }
 li a {
@@ -26,6 +26,7 @@ li a {
   color: black;
   padding: 8px 16px;
   text-decoration: none;
+  text-align: center;
 }
 /* Change the link and background color on hover */
 li a:hover {
@@ -37,6 +38,12 @@ li a:hover {
      list-style-type: none;
      margin: 0;
      padding: 5px;
+}
+/* Style the content */
+.content {
+  margin-top: auto;
+  margin-left: 100px;
+  padding-left: 50px;
 }
 /* shared pages styles */
 .pages .section-1, 
