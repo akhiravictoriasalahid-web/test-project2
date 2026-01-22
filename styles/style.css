@@ -14,8 +14,29 @@ header h1 {
     background-color: antiquewhite;
     padding: 20px;
 }
-ul li {
-    margin: 30px;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #ffffe0;
+}
+li a {
+  display: block;
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+/* Change the link and background color on hover */
+li a:hover {
+  background-color: #555555;
+  color: #fffacd;
+}
+/* shared pages ul */
+.pages .ul-1 {
+     list-style-type: none;
+     margin: 0;
+     padding: 5px;
 }
 /* shared pages styles */
 .pages .section-1, 
